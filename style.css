@@ -1,0 +1,191 @@
+/* Général */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  min-height: 100%;
+  min-width: 100%;
+  margin:0;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#conteneur {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Header */
+
+header {
+  font-size: 13px;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+header ul li {
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+}
+
+header a {
+  color: #000000de;
+}
+
+header button {
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid #4285f4;
+  line-height: 28px;
+  border-radius: 2px;
+  background: #4285f4;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+/* Section Image */
+
+#image {
+  margin-bottom: 10px;
+}
+
+#image img {
+  padding-top: 100px;
+}
+
+/* Section Recherche */
+
+#recherche {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#searchbar {
+  font-size: 16px;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  margin: 0 auto 10px auto;
+  width: 500px;
+}
+
+#searchbar:hover{
+    box-shadow: 0 2px 8px rgba(33,33,33,.2);
+}
+
+#searchbar input {
+  border: none;
+  width: 100%;
+}
+
+input{
+    padding-left: 10px;
+    outline: none;
+}
+
+#searchbar img {
+  height: 20px;
+}
+
+#recherche button {
+  color: #3c4043;
+  cursor: pointer;
+  font-size: 14px;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  height: 36px;
+  text-align: center;
+}
+
+#recherche button:hover{
+    box-shadow: 0 2px 2px rgba(36, 34, 34, 0.2);
+    border: 1px solid rgba(36, 34, 34, 0.2);
+}
+
+/* Section Jugement */
+
+#jugement {
+  font-size: 13px;
+  padding: 5px;
+  border: 1px solid #70757a;
+  margin: 10px auto;
+}
+
+#jugement a {
+  color: #1a0dab;
+}
+
+#jugement a:visited {
+  color: #609;
+}
+
+/* Footer */
+
+footer{
+    position: absolute;
+    bottom: 0;
+    background: #f2f2f2;
+    width: 100%;
+    margin:0;
+}
+
+#pays {
+  color: #0000008a;
+  font-size: 15px;
+  text-align: left;
+  padding-left: 50px;
+  border-top: 1px solid #dadce0;
+}
+
+#about{
+    border-top: 1px solid #dadce0;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 14px;
+}
+
+#about div li{
+    display: inline-block;
+}
+
+#about div ul li{
+    padding-left: 20px;
+    
+}
+
+#about img {
+  height: 14px;
+  width: 14px;
+}
+
+#about a {
+  color: #70757a;
+}
+
+#imagefooter{
+    flex: 1;
+}
